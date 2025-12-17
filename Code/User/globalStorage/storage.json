@@ -1,0 +1,95 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "9ca45e6f9e3645839b509d49881c5389515b0d25beaa42151c01d8da9f20ec4f",
+    "telemetry.devDeviceId": "36ebca4a-a2c9-45b3-a76e-b2b305dd19f4",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///"
+            },
+            {
+                "folderUri": "file:///home/laurent/.config"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1765943430822"
+            }
+        ]
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/laurent": "__default__profile__",
+            "file:///home/laurent/.config/fastfetch": "__default__profile__",
+            "file:///": "__default__profile__",
+            "file:///home/laurent/.config": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/laurent/.config",
+            "backupPath": "/home/laurent/.config/Code/Backups/7abe67fc3b7ecd6393b374a109a6e7b2",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 640,
+                "height": 720
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "eca5c9856f0e875fed9ba15202290319": {
+                    "sideBarVisible": false,
+                    "auxiliaryBarVisible": false
+                },
+                "4914d2c306ec5230eab9150437268972": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "a457f0e3d162d8f8aadf2d0e621623e7": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "baadc1acc8df4a5f426d7c4ab348353f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

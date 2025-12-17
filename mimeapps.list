@@ -1,0 +1,11 @@
+[Added Associations]
+application/x-shellscript=vim-3.desktop;code-9.desktop;
+image/png=code-11.desktop;code-10.desktop;vim-2.desktop;
+text/plain=code-8.desktop;code-7.desktop;code-6.desktop;
+text/x-devicetree-source=code-5.desktop;code-4.desktop;code-3.desktop;code-2.desktop;
+
+[Default Applications]
+application/x-shellscript=vim-3.desktop;
+image/png=code-11.desktop;
+text/plain=code-8.desktop;
+text/x-devicetree-source=code-5.desktop;

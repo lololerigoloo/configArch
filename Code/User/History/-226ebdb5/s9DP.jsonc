@@ -1,0 +1,122 @@
+// Load with --load-config examples/2.jsonc
+// Note that you must replace the image path to an existing image to display it.
+
+{
+    "logo": {
+    "type": "kitty-direct",
+    "source": "/home/laurent/.config/fastfetch/Picture/usopp-Photoroom.png",
+    "width": 25,
+    "height": 14,
+    "padding":{
+        "top": 1,
+        "right": 0,
+        "bottom": 1,
+        "left": 0
+    }
+},
+  
+
+    "display": {
+        "separator": "|"
+    },
+
+    "modules":[
+        {
+            "type": "custom", // HardwareStart
+            "format": "┌─────────── \u001b[1mHardware Information\u001b[0m ───────────┐" // `\u001b` is `\033`, or `\e`
+        },
+        {
+            "type": "host",
+            "key": "  󰌢"
+        },
+        {
+            "type": "cpu",
+            "key": "  "
+        },
+        {
+            "type": "gpu",
+            "detectionMethod": "pci",
+            "key": "  "
+        },
+        {
+            "type": "display",
+            "key": "  󱄄"
+        },
+        {
+            "type": "memory",
+            "key": "  ",
+            "percent": {
+            "type": 3,     // Show both percentage number and bar
+            "green": 30,   // Values below 30% in green
+            "yellow": 70 }  // Values between 30% and 70% in yellow
+        },
+        {
+            "type": "disk",
+            "key": "  ",
+            "percent": {
+            "type": 3,     // Show both percentage number and bar
+            "green": 30,   // Values below 30% in green
+            "yellow": 70 }  // V
+            
+        },
+        {
+            "type": "battery",
+            "key": "  ",
+            "format": "{1} {2}%",
+            "percent": {
+            "type": 3,     // Show both percentage number and bar
+            "green": 30,   // Values below 30% in green
+            "yellow": 70 }  // Values between 30% and 70% in yellow
+        },
+        {
+            "type": "custom", // HardwareEnd
+            "format": "├────────────────────────────────────────────┤"
+        },
+        {
+            "type": "custom", // SoftwareStart
+            "format": "├─────────── \u001b[1mSoftware Information\u001b[0m ───────────┤"
+        },
+        {
+            "type": "os",
+            "key": "  " // Just get your distro's logo off nerdfonts.com,
+        },
+        {
+            "type": "kernel",
+            "key": "  ",
+            "format": "{1} {2}"
+        },
+        {
+            "type": "wm",
+            "key": "  "
+        },
+        {
+            "type": "shell",
+            "key": "  "
+        },
+        {
+            "type": "custom",
+            "format": "|──────────────\u001b[1mUptime / Age\u001b[0m──────────────────|"
+        },
+        {
+            "type": "command",
+            "key": "  OS Age ",
+            "keyColor": "magenta",
+            "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+        },
+        {
+            "type": "uptime",
+            "key": "  Uptime ",
+            "keyColor": "magenta"
+        },
+        {
+            "type": "custom", // InformationEnd
+            "format": "└────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        }
+
+    ]
+}

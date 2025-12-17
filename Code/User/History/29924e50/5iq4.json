@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "terminal.integrated.gpuAcceleration": "off",
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "editor.fontSize": 6
+}

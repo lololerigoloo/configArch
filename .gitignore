@@ -1,0 +1,35 @@
+# Ignorer les images
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.ico
+*.svg
+
+# Ignorer les vidéos
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.flv
+
+# Ignorer les archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Ignorer les fichiers temporaires et caches
+*.cache
+*.tmp
+*.swp
+*.bak
+
+# Ignorer les dossiers spécifiques souvent volumineux
+cache/
+tmp/
+logs/

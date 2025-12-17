@@ -1,0 +1,2 @@
+sudo systemctl enable --now iwd
+ceci est une super commende pour le reseau si il est lent

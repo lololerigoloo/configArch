@@ -1,0 +1,5 @@
+[EmbedSettings]
+embed-application/x-shellscript=false
+embed-image/png=false
+embed-text/plain=false
+embed-text/x-devicetree-source=false

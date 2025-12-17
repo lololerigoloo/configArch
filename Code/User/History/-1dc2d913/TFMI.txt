@@ -1,0 +1,5 @@
+sudo systemctl enable --now iwd
+ceci est une super commende pour le reseau si il est lent
+sudo systemctl restart NetworkManager
+ensuite c'est commande va venir restart iwctl qui manage mon reseau 
+wow quelle beauter fatal enfin j'ai atteint les 250 mbps sur arch

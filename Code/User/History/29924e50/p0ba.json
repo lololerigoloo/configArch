@@ -1,0 +1,5 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "terminal.integrated.gpuAcceleration": "off"
+}
